@@ -1,0 +1,73 @@
+{
+	"id" : "unity3d",
+	"removeFolder" : 0,
+	"warning" : "> Open the sample scene inside scenes folder \n\n> If you are making pixel art, select no compression to remove pixel imperfections \n\n>It has been used unity 2020 to improve compatibility \n\n> If error, reexport again from the tile mapper after first open in unity",
+	"codexport" : [
+		{
+			"id" : "<MAP_LIST_CODE>",
+			"content" : "\n\t\tmapFilesList.Add(Resources.Load<TextAsset>(\"<MAPFOLDERS><MAPNAMES>\"));",
+			"params" : "",
+			"type" : "write_map"
+		},
+		{
+			"id" : "<IMG_LIST_CODE>",
+			"content" : "\n\t\taddTileSlicer(\"<IMGFOLDERS><IMGNAMES>\");",
+			"params" : "",
+			"type" : "write_img"
+		},
+		{
+			"id" : "assets",
+			"content" : "",
+			"params" : "",
+			"type" : "bulk_imgs"
+		},
+		{
+			"id" : "maps",
+			"content" : "",
+			"params" : "",
+			"type" : "bulk_maps"
+		},
+		{
+			"id" : "FOLDER_CREATE_MAP_FILES",
+			"content" : "Assets/Resources/<MAPFOLDERS>/<MAPNAMES>.json",
+			"params" : "",
+			"type" : "file_map"
+		},
+		{
+			"id" : "FOLDER_CREATE_IMG_FILES",
+			"content" : "Assets/Resources/<IMGFURLS>",
+			"params" : "",
+			"type" : "file_img"
+		},
+		{
+			"id" : "<MAPFOLDERS>",
+			"content" : "",
+			"params" : "foldermap",
+			"type" : "map_index"
+		},
+		{
+			"id" : "<MAPNAMES>",
+			"content" : "",
+			"params" : "mapnames",
+			"type" : "map_index"
+		},
+		{
+			"id" : "<IMGFURLS>",
+			"content" : "",
+			"params" : "url",
+			"type" : "img_index"
+		},
+		{
+			"id" : "<IMGFOLDERS>",
+			"content" : "",
+			"params" : "folderimg",
+			"type" : "img_index"
+		},
+		{
+			"id" : "<IMGNAMES>",
+			"content" : "",
+			"params" : "imgnames",
+			"type" : "img_index"
+		}
+	]
+}

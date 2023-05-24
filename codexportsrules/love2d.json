@@ -1,0 +1,61 @@
+{
+	"id" : "love2d",
+	"removeFolder" : 0,
+	"warning" : "No notes",
+	"codexport" : [
+		{
+			"id" : "MAP_LIST",
+			"content" : "\"<MAPFOLDERS><MAPNAMES>.lua\",",
+			"params" : "removeLastCharacter",
+			"type" : "write_map"
+		},
+		{
+			"id" : "lua",
+			"content" : "",
+			"params" : "",
+			"type" : "type_export"
+		},
+		{
+			"id" : "love2d_assets",
+			"content" : "",
+			"params" : "",
+			"type" : "bulk_imgs"
+		},
+		{
+			"id" : "love2d_maps",
+			"content" : "",
+			"params" : "",
+			"type" : "bulk_maps"
+		},
+		{
+			"id" : "FOLDER_CREATE_MAP_FILES",
+			"content" : "<MAPFOLDERS><MAPNAMES>.lua",
+			"params" : "",
+			"type" : "file_map"
+		},
+		{
+			"id" : "FOLDER_CREATE_IMG_FILES",
+			"content" : "IMGFOLDERS",
+			"params" : "",
+			"type" : "file_img"
+		},
+		{
+			"id" : "<MAPFOLDERS>",
+			"content" : "",
+			"params" : "foldermap",
+			"type" : "map_index"
+		},
+		{
+			"id" : "<MAPNAMES>",
+			"content" : "",
+			"params" : "mapnames",
+			"type" : "map_index"
+		},
+		{
+			"id" : "IMGFOLDERS",
+			"content" : "",
+			"params" : "url",
+			"type" : "img_index"
+		}
+	]
+}

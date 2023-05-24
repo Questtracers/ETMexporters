@@ -1,0 +1,157 @@
+{
+	"id" : "gamemaker_drawparts",
+	"removeFolder" : 1,
+	"warning" : "No notes",
+	"codexport" : [
+		{
+			"id" : "FOLDER_CREATE_IMG_LAYERS",
+			"content" : "sprites/IMGNAMES/layers/IMG_UUIDS/IMG_LAYERS_UUID.png",
+			"params" : "",
+			"type" : "file_img"
+		},
+		{
+			"id" : "FOLDER_CREATE_MAP_FILES",
+			"content" : "MAPURL",
+			"params" : "",
+			"type" : "file_map"
+		},
+		{
+			"id" : "FOLDER_CREATE_IMG_FILES",
+			"content" : "sprites/IMGNAMES/IMG_UUIDS.png",
+			"params" : "",
+			"type" : "file_img"
+		},
+		{
+			"id" : "FOLDER_CREATE_IMG_NAMES",
+			"content" : "sprites/IMGNAMES/layers/IMG_UUIDS/",
+			"params" : "",
+			"type" : "folder_img"
+		},
+		{
+			"id" : "GML_ADD_MAPS",
+			"content" : "\narray_push(fileList,\"MAPURL\")",
+			"params" : "",
+			"type" : "write_map"
+		},
+		{
+			"id" : "AWEXPORT_PROJECTFILE_INCLUDEDFILES",
+			"content" : "\n\t\t{\"resourceType\":\"GMIncludedFile\",\"resourceVersion\":\"1.0\",\"name\":\"MAPNAMESFORMAT\",\"CopyToMask\":-1,\"filePath\":\"MAPFOLDERURL\",},",
+			"params" : "",
+			"type" : "write_map"
+		},
+		{
+			"id" : "AWEXPORT_PROJECTFILE_INCLUDEDIMGS",
+			"content" : "\n\t\t{\"id\":{\"name\":\"IMGNAMES\",\"path\":\"sprites/IMGNAMES/IMGNAMES.yy\",},},",
+			"params" : "",
+			"type" : "write_img"
+		},
+		{
+			"id" : "AWEXPORT_RESOURCE_IMG_LIST",
+			"content" : "\n\t{\"name\":\"IMGNAMES\",\"order\":IMG_COUNTER,\"path\":\"sprites/IMGNAMES/IMGNAMES.yy\",},",
+			"params" : "",
+			"type" : "write_img"
+		},
+		{
+			"id" : "datafiles/maps",
+			"content" : "",
+			"params" : "",
+			"type" : "bulk_maps"
+		},
+		{
+			"id" : "MAPURL",
+			"content" : "",
+			"params" : "url",
+			"type" : "map_index"
+		},
+		{
+			"id" : "MAPFOLDERURL",
+			"content" : "",
+			"params" : "foldermap",
+			"type" : "map_index"
+		},
+		{
+			"id" : "MAPNAMESFORMAT",
+			"content" : "",
+			"params" : "file",
+			"type" : "map_index"
+		},
+		{
+			"id" : "EXPORT_FILE_IMGYY",
+			"content" : "sprites/IMGNAMES/IMGNAMES.yy",
+			"params" : "SAVE_FILE_IMGYY",
+			"type" : "export_file_img"
+		},
+		{
+			"id" : "IMGNAMES",
+			"content" : "",
+			"params" : "imgnames",
+			"type" : "img_index"
+		},
+		{
+			"id" : "IMG_COUNTER",
+			"content" : "",
+			"params" : "numbers",
+			"type" : "img_index"
+		},
+		{
+			"id" : "IMG_VALWIDTH",
+			"content" : "",
+			"params" : "imgwidth",
+			"type" : "img_index"
+		},
+		{
+			"id" : "IMG_VALHEIGHT",
+			"content" : "",
+			"params" : "imgheight",
+			"type" : "img_index"
+		},
+		{
+			"id" : "IMG_SECOND_VALWIDTH",
+			"content" : "",
+			"params" : "imgwidth",
+			"type" : "img_index"
+		},
+		{
+			"id" : "IMG_SECOND_VALHEIGHT",
+			"content" : "",
+			"params" : "imgheight",
+			"type" : "img_index"
+		},
+		{
+			"id" : "OPERATOR_SECOND_VALWIDTH",
+			"content" : "IMG_SECOND_VALWIDTH",
+			"params" : "-1",
+			"type" : "operator"
+		},
+		{
+			"id" : "OPERATOR_SECOND_VALHEIGHT",
+			"content" : "IMG_SECOND_VALHEIGHT",
+			"params" : "-1",
+			"type" : "operator"
+		},
+		{
+			"id" : "IMG_UUIDS",
+			"content" : "",
+			"params" : "uuid",
+			"type" : "img_index"
+		},
+		{
+			"id" : "IMG_LAYERS_UUID",
+			"content" : "",
+			"params" : "uuid",
+			"type" : "img_index"
+		},
+		{
+			"id" : "IMG_TERCER_UUID",
+			"content" : "",
+			"params" : "uuid",
+			"type" : "img_index"
+		},
+		{
+			"id" : "SAVE_FILE_IMGYY",
+			"content" : "",
+			"params" : "no copy",
+			"type" : "savefile"
+		}
+	]
+}
